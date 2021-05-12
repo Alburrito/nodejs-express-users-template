@@ -1,0 +1,55 @@
+{
+  "name": "nodejs-express-users-template",
+  "version": "1.0.0",
+  "description": "NodeJS template with user management system.",
+  "main": "index.js",
+  "scripts": {
+    "ts:node": "ts-node src/index.ts",
+    "start": "node build/src",
+    "build": "tsc",
+    "dev": "nodemon",
+    "clean": "rm -rf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alburrito/nodejs-express-users-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alburrito/nodejs-express-users-template/issues"
+  },
+  "homepage": "https://github.com/Alburrito/nodejs-express-users-template#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.8",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/connect-flash": "^0.0.36",
+    "@types/ejs": "^3.0.6",
+    "@types/express": "^4.17.11",
+    "@types/express-ejs-layouts": "^2.3.2",
+    "@types/express-session": "^1.17.3",
+    "@types/method-override": "^0.0.31",
+    "@types/mongoose": "^5.10.5",
+    "@types/morgan": "^1.9.2",
+    "@types/passport": "^1.0.6",
+    "@types/passport-local": "^1.0.33",
+    "dotenv": "^9.0.2",
+    "nodemon": "^2.0.7",
+    "npm-check-updates": "^11.5.11",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}

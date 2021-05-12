@@ -11,7 +11,6 @@ import passport from "passport";
 import config from "./config/config";
 import indexRoutes from "./routes/index.routes";
 import usersRoutes from "./routes/users.routes";
-import networkRoutes from "./routes/network.routes";
 
 // Inicializaciones
 const app = express();
@@ -51,7 +50,6 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 // Routes
 app.use(indexRoutes);
 app.use(usersRoutes);
-app.use(networkRoutes);
 
 // Static files
 app.use(express.static(path.join(__dirname, "public")));
