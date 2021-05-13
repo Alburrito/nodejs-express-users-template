@@ -7,7 +7,7 @@ NodeJS template with user management system.
 1. Clone the repository
 
 ```bash
-git clone LINK
+git clone https://github.com/Alburrito/nodejs-express-users-template.git
 ```
 
 2. Install packages and dependencies
@@ -28,6 +28,21 @@ npm run dev
 npm run build
 npm start
 ```
+
+## Dependencies
+
+· bcyrptjs - 
+· connect-flash - 
+· ejs -
+· express -
+· express-ejs-layouts - 
+· method-override - 
+· mongoose - 
+· morgan -
+· passport - 
+· typescript
+· nodemon
+· dotenv -
 
 
 ## ENVIRONMENT VARIABLES:
